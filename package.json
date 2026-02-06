@@ -14,8 +14,10 @@
     "build:web": "npm run build --workspace=apps/web",
     "build:api": "npm run build --workspace=apps/api",
     "lint": "npm run lint --workspace=apps/web",
-    "start": "npm run start --workspace=apps/web"
+    "start": "npm run start --workspace=apps/web",
+    "export": "next build"
   },
+  
   "keywords": [
     "sanse",
     "capital",
